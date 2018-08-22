@@ -1,4 +1,6 @@
-#logging.level.org.springframework.web=DEBUG
+logging:
+    level:
+        org.springframework.web: DEBUG
 
 spring:
     datasource:
@@ -8,10 +10,15 @@ spring:
         driver-class-name: com.mysql.jdbc.Driver
 
     jpa:
-      hibernate:
-          ddl-auto: update
-      properties:
-          hibernate:
-              show_sql: true
-              format_sql: true
-              dialect: org.hibernate.dialect.MySQL5Dialect
+        hibernate:
+            ddl-auto: update
+        properties:
+            hibernate:
+                show_sql: true
+                format_sql: true
+                dialect: org.hibernate.dialect.MySQL5Dialect
+
+    mvc:
+        view:
+            prefix: /WEB-INF/views/
+            suffix: .jsp
