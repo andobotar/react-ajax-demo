@@ -1,0 +1,12 @@
+.ajax-demo__word-container {
+    width: 50%;
+    height: 50px;
+    line-height: 50px;
+    background: linear-gradient(rgb(19, 192, 255), rgb(61, 200, 208));
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px #888888;
+    margin: 0 auto 20px;
+    cursor: pointer;
+    color: white;
+    font-weight: bolder;
+}

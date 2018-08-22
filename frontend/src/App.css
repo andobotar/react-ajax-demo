@@ -1,0 +1,23 @@
+body {
+    margin-top: 100px;
+    background: url("./components/cafe.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+input {
+    height: 30px;
+    width: 300px;
+    margin-bottom: 40px;
+}
+
+button {
+    height: 30px;
+    color: darkorange;
+    border-radius: 4px;
+    outline: none;
+    margin-left: 10px;
+}
+
+.App {
+  text-align: center;
+}
